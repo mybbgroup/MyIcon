@@ -1,0 +1,37 @@
+<!doctype HTML>
+<html>
+	<head>
+		<title>MyBB Icons CheatSheet</title>
+		<meta charset="utf-8">
+		<script>
+			{{{loaderText}}}
+			{{{embedText}}}
+			{{#with cssFiles}}
+			grunticon(["{{svg}}", "{{png}}", "{{fallback}}"]);
+		</script>
+		<noscript><link href="{{fallback}}" rel="stylesheet"></noscript>
+		{{/with}}
+	</head>
+	<body>
+
+		<h1>Icon CheatSheet</h1>
+		{{#each icons}}
+			{{#with this}}
+			<span {{selectorType}}="{{selectorString}}{{name}}"></span>{{prefix}}{{name}}<br>
+			{{/with}}
+		{{/each}}
+		<style>
+			@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+			body, button{
+				font-family: 'Roboto Condensed', sans-serif;
+			}
+            span[class^='icon-']{
+                display: inline-block;
+                vertical-align: text-top;
+                width: 16px;
+                height: 16px;
+                margin-right: 5px;
+            }
+		</style>
+</body>
+</html>
