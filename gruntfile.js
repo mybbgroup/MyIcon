@@ -17,8 +17,18 @@ module.exports = function(grunt) {
 					cssprefix: ".icon-"
 				}
 			}
+		},
+		webfont: {
+			myIcon: {
+				src: 'src/svgs/*.svg',
+				dest: 'dist/fonts',
+				options: {
+					engine: "node"
+				}
+			}
 		}
 	});
 	grunt.loadNpmTasks('grunt-grunticon');
-	grunt.registerTask('default', ['grunticon:myIcon']);
+	grunt.loadNpmTasks('grunt-webfont');
+	grunt.registerTask('default', ['grunticon:myIcon','webfont:myIcon']);
 };
