@@ -7,7 +7,7 @@
 			{{{loaderText}}}
 			{{{embedText}}}
 			{{#with cssFiles}}
-			grunticon(["{{svg}}", "{{png}}", "{{fallback}}"]);
+			grunticon(["{{svg}}", "{{png}}", "{{fallback}}"], grunticon.svgLoadedCallback );
 		</script>
 		<noscript><link href="{{fallback}}" rel="stylesheet"></noscript>
 		{{/with}}
@@ -17,7 +17,7 @@
 		<h1>MyIcon CheatSheet</h1>
 		{{#each icons}}
 			{{#with this}}
-			<span {{selectorType}}="{{selectorString}}{{name}}"></span>{{prefix}}{{name}}<br>
+			<span {{selectorType}}="{{selectorString}}{{name}}" data-grunticon-embed></span>{{prefix}}{{name}}<br>
 			{{/with}}
 		{{/each}}
 		<style>
@@ -25,12 +25,13 @@
 			body, button{
 				font-family: 'Roboto Condensed', sans-serif;
 			}
-            span[class^='icon-']{
+            span[class^='mi-']{
                 display: inline-block;
                 vertical-align: text-top;
                 width: 16px;
                 height: 16px;
                 margin-right: 5px;
+				fill: currentColor;
             }
 		</style>
 </body>

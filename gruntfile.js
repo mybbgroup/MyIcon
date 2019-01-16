@@ -7,27 +7,33 @@ module.exports = function (grunt) {
 					expand: true,
 					cwd: 'src/svgs',
 					src: ['*.svg', '*.png'],
-					dest: "dist"
+					dest: "dist/vector"
 				}],
 				options: {
 					loadersnippet: "grunticon.loader.js",
 					defaultWidth: "24px",
 					defaultHeight: "24px",
-					previewTemplate: "src/preview.hbs",
-					cssprefix: ".icon-"
+					previewTemplate: "src/myicon.hbs",
+					cssprefix: ".mi-",
+					enhanceSVG: true,
+					datasvgcss: 'mi.svg.css',
+					datapngcss: 'mi.png.css',
+					urlpngcss:	'mi.img.css',
+					previewhtml: 'MyIcon.html',
+					loadersnippet: 'mi.loader.js'
 				}
 			}
 		},
 		webfont: {
 			myIcon: {
 				src: 'src/svgs/*.svg',
-				dest: 'dist/fonts',
+				dest: 'dist/webfont',
 				options: {
 					//engine: "node", // Don't use node, it always fails to render svgo optimized vectors
 					font: "MyIcon",
 					syntax: "bootstrap",
 					templateOptions: {
-						classPrefix: 'icon-'
+						classPrefix: 'mi-'
 					}
 				}
 			}
