@@ -2,6 +2,10 @@
 
 .mi-admin-panel-s { background-image: url('png/admin-panel-s.png'); background-repeat: no-repeat; }
 
+.mi-brand-codepen-o { background-image: url('png/brand-codepen-o.png'); background-repeat: no-repeat; }
+
+.mi-brand-codepen-s { background-image: url('png/brand-codepen-s.png'); background-repeat: no-repeat; }
+
 .mi-brand-mybb-o { background-image: url('png/brand-mybb-o.png'); background-repeat: no-repeat; }
 
 .mi-brand-mybb-s { background-image: url('png/brand-mybb-s.png'); background-repeat: no-repeat; }
@@ -22,9 +26,21 @@
 
 .mi-misc-home-s { background-image: url('png/misc-home-s.png'); background-repeat: no-repeat; }
 
+.mi-misc-search-o { background-image: url('png/misc-search-o.png'); background-repeat: no-repeat; }
+
+.mi-misc-search { background-image: url('png/misc-search.png'); background-repeat: no-repeat; }
+
 .mi-thread-star-o { background-image: url('png/thread-star-o.png'); background-repeat: no-repeat; }
 
 .mi-thread-star-s { background-image: url('png/thread-star-s.png'); background-repeat: no-repeat; }
+
+.mi-ucp-profile-edit-o { background-image: url('png/ucp-profile-edit-o.png'); background-repeat: no-repeat; }
+
+.mi-ucp-profile-edit-s { background-image: url('png/ucp-profile-edit-s.png'); background-repeat: no-repeat; }
+
+.mi-ucp-profile-o { background-image: url('png/ucp-profile-o.png'); background-repeat: no-repeat; }
+
+.mi-ucp-profile-s { background-image: url('png/ucp-profile-s.png'); background-repeat: no-repeat; }
 
 .mi-user-add-o { background-image: url('png/user-add-o.png'); background-repeat: no-repeat; }
 
@@ -53,6 +69,18 @@
 .mi-user-purge-o { background-image: url('png/user-purge-o.png'); background-repeat: no-repeat; }
 
 .mi-user-purge-s { background-image: url('png/user-purge-s.png'); background-repeat: no-repeat; }
+
+.mi-user-quote-add-o { background-image: url('png/user-quote-add-o.png'); background-repeat: no-repeat; }
+
+.mi-user-quote-add { background-image: url('png/user-quote-add.png'); background-repeat: no-repeat; }
+
+.mi-user-quote-o { background-image: url('png/user-quote-o.png'); background-repeat: no-repeat; }
+
+.mi-user-quote-remove-o { background-image: url('png/user-quote-remove-o.png'); background-repeat: no-repeat; }
+
+.mi-user-quote-remove { background-image: url('png/user-quote-remove.png'); background-repeat: no-repeat; }
+
+.mi-user-quote { background-image: url('png/user-quote.png'); background-repeat: no-repeat; }
 
 .mi-user-single-o { background-image: url('png/user-single-o.png'); background-repeat: no-repeat; }
 

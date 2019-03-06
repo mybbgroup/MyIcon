@@ -5,10 +5,10 @@
 
 @font-face {
 	font-family:"MyIcon";
-	src:url("MyIcon.eot?09881308c1a118b62d71481bd3dd4019");
-	src:url("MyIcon.eot?09881308c1a118b62d71481bd3dd4019#iefix") format("embedded-opentype"),
-		url("MyIcon.woff?09881308c1a118b62d71481bd3dd4019") format("woff"),
-		url("MyIcon.ttf?09881308c1a118b62d71481bd3dd4019") format("truetype");
+	src:url("MyIcon.eot?682c21af8895dcfa939948dac5421687");
+	src:url("MyIcon.eot?682c21af8895dcfa939948dac5421687#iefix") format("embedded-opentype"),
+		url("MyIcon.woff?682c21af8895dcfa939948dac5421687") format("woff"),
+		url("MyIcon.ttf?682c21af8895dcfa939948dac5421687") format("truetype");
 	font-weight:normal;
 	font-style:normal;
 }
@@ -47,169 +47,253 @@
 
 
 
-.mi-brand-mybb-o:before {
+.mi-brand-codepen-o:before {
 	content:"\f103";
 }
 
 
 
-.mi-brand-mybb-s:before {
+.mi-brand-codepen-s:before {
 	content:"\f104";
 }
 
 
 
-.mi-misc-archive-o:before {
+.mi-brand-mybb-o:before {
 	content:"\f105";
 }
 
 
 
-.mi-misc-archive-s:before {
+.mi-brand-mybb-s:before {
 	content:"\f106";
 }
 
 
 
-.mi-misc-calendar-o:before {
+.mi-misc-archive-o:before {
 	content:"\f107";
 }
 
 
 
-.mi-misc-calendar-s:before {
+.mi-misc-archive-s:before {
 	content:"\f108";
 }
 
 
 
-.mi-misc-help-o:before {
+.mi-misc-calendar-o:before {
 	content:"\f109";
 }
 
 
 
-.mi-misc-help-s:before {
+.mi-misc-calendar-s:before {
 	content:"\f10a";
 }
 
 
 
-.mi-misc-home-o:before {
+.mi-misc-help-o:before {
 	content:"\f10b";
 }
 
 
 
-.mi-misc-home-s:before {
+.mi-misc-help-s:before {
 	content:"\f10c";
 }
 
 
 
-.mi-thread-star-o:before {
+.mi-misc-home-o:before {
 	content:"\f10d";
 }
 
 
 
-.mi-thread-star-s:before {
+.mi-misc-home-s:before {
 	content:"\f10e";
 }
 
 
 
-.mi-user-add-o:before {
+.mi-misc-search-o:before {
 	content:"\f10f";
 }
 
 
 
-.mi-user-add-s:before {
+.mi-misc-search:before {
 	content:"\f110";
 }
 
 
 
-.mi-user-ban-o:before {
+.mi-thread-star-o:before {
 	content:"\f111";
 }
 
 
 
-.mi-user-ban-s:before {
+.mi-thread-star-s:before {
 	content:"\f112";
 }
 
 
 
-.mi-user-delete-o:before {
+.mi-ucp-profile-edit-o:before {
 	content:"\f113";
 }
 
 
 
-.mi-user-delete-s:before {
+.mi-ucp-profile-edit-s:before {
 	content:"\f114";
 }
 
 
 
-.mi-user-edit-o:before {
+.mi-ucp-profile-o:before {
 	content:"\f115";
 }
 
 
 
-.mi-user-edit-s:before {
+.mi-ucp-profile-s:before {
 	content:"\f116";
 }
 
 
 
-.mi-user-list-o:before {
+.mi-user-add-o:before {
 	content:"\f117";
 }
 
 
 
-.mi-user-list-s:before {
+.mi-user-add-s:before {
 	content:"\f118";
 }
 
 
 
-.mi-user-panel-o:before {
+.mi-user-ban-o:before {
 	content:"\f119";
 }
 
 
 
-.mi-user-panel-s:before {
+.mi-user-ban-s:before {
 	content:"\f11a";
 }
 
 
 
-.mi-user-purge-o:before {
+.mi-user-delete-o:before {
 	content:"\f11b";
 }
 
 
 
-.mi-user-purge-s:before {
+.mi-user-delete-s:before {
 	content:"\f11c";
 }
 
 
 
-.mi-user-single-o:before {
+.mi-user-edit-o:before {
 	content:"\f11d";
 }
 
 
 
-.mi-user-single-s:before {
+.mi-user-edit-s:before {
 	content:"\f11e";
+}
+
+
+
+.mi-user-list-o:before {
+	content:"\f11f";
+}
+
+
+
+.mi-user-list-s:before {
+	content:"\f120";
+}
+
+
+
+.mi-user-panel-o:before {
+	content:"\f121";
+}
+
+
+
+.mi-user-panel-s:before {
+	content:"\f122";
+}
+
+
+
+.mi-user-purge-o:before {
+	content:"\f123";
+}
+
+
+
+.mi-user-purge-s:before {
+	content:"\f124";
+}
+
+
+
+.mi-user-quote-add-o:before {
+	content:"\f125";
+}
+
+
+
+.mi-user-quote-add:before {
+	content:"\f126";
+}
+
+
+
+.mi-user-quote-o:before {
+	content:"\f127";
+}
+
+
+
+.mi-user-quote-remove-o:before {
+	content:"\f128";
+}
+
+
+
+.mi-user-quote-remove:before {
+	content:"\f129";
+}
+
+
+
+.mi-user-quote:before {
+	content:"\f12a";
+}
+
+
+
+.mi-user-single-o:before {
+	content:"\f12b";
+}
+
+
+
+.mi-user-single-s:before {
+	content:"\f12c";
 }
 
